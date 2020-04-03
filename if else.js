@@ -55,7 +55,7 @@ var divide = prompt("Enter the division")
 
 if (divide % 3 == 0) {
     alert("this is divide by " + 3)
-} else if (divide % 3 !== 0){
+} else if (divide % 3 !== 0) {
     alert
         ("this is not divide by " + 3)
 }
@@ -65,15 +65,15 @@ if (divide % 3 == 0) {
 // Question (06)
 
 var numb = prompt("Enter Number or String")
-if(numb === "A"){
+if (numb === "A") {
     alert("A = 65 & this is Upercase")
-} else if(numb === "a"){
+} else if (numb === "a") {
     alert("a = 97 & this is lowercase")
-} else if(numb === "Z"){
+} else if (numb === "Z") {
     alert("Z = 90 & this is upercase")
-}  else if(numb === "z"){
+} else if (numb === "z") {
     alert("z = 122 & this is lowercase")
-} 
+}
 
 
 
@@ -171,6 +171,21 @@ if (greeting <= 18) {
 
 
 
+
+// Qusstion (13)
+
+var num1 = prompt("Input the First integer", "0");
+var num2 = prompt("Input the second integer", "0");
+
+if (parseInt(num1, 10) > parseInt(num2, 10)) {
+    alert("The larger of " + num1 + " and " + num2 + " is " + num1 + ".");
+} else if (parseInt(num2, 10) > parseInt(num1, 10)) {
+    alert("The larger of " + num1 + " and " + num2 + " is " + num2 + ".");
+} else {
+    alert("The values " + num1 + " and " + num2 + " are equal.");
+}
+
+
 // Question (14)
 
 var inp_1 = prompt("Enter a number")
@@ -234,21 +249,3 @@ if (equal != 8) {
 } else {
     alert("they are equal")
 }
-
-
-
-
-
-var num1 = prompt("Input the First integer", "0");
-var num2 = prompt("Input the second integer", "0");
-                                                 
-if(parseInt(num1, 10) > parseInt(num2, 10)) { 
-  alert("The larger of "+ num1+ " and "+ num2+ " is "+ num1+ ".");
-  }   
-else if(parseInt(num2, 10) > parseInt(num1, 10)) {
-  alert("The larger of "+ num1+" and "+ num2+ " is "+ num2+ ".");
-  }                  
-else
-  {
-   alert("The values "+ num1+ " and "+num2+ " are equal.");
-  }

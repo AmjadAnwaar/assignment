@@ -63,7 +63,7 @@ cars.push("Swift", "Mehran", "Mera", "Civic", "Corolla", "ALto", "Cultus")
 
 
     // (a)
-console.log(0)
+console.log(cars)
 
 
     // (b)
